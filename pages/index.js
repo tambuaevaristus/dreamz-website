@@ -6,6 +6,7 @@ import styles from "../styles/Home.module.css";
 import Banner from "../components/Banner";
 import About from "../components/About";
 import WhyUs from "../components/WhyUs";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
       <Banner />
       <About />
       <WhyUs />
-
+      <Footer />
 
 
       <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
