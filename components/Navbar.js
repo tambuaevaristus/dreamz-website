@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Navbar() {
   return (
-    <div>
+    
       <div
-        class="container-fluid fixed-top px-0 wow fadeIn"
+        class="container-fluid fixed-top px-0  wow fadeIn"
         data-wow-delay="0.1s"
       >
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
@@ -29,11 +30,11 @@ export default function Navbar() {
         </div>
 
         <nav
-          class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn"
+          class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn pt-5 pt-lg-0"
           data-wow-delay="0.1s"
         >
           <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="display-5 text-primary m-0">Dreamz</h1>
+           <Image src="/img/dlogo.png"  className="img-fluid " width={65} height={65} />
           </a>
           <button
             type="button"
@@ -82,6 +83,6 @@ export default function Navbar() {
           </div>
         </nav>
       </div>
-    </div>
+    
   );
 }
