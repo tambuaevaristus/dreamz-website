@@ -12,14 +12,13 @@ export default function Footer() {
             <div class="col-lg-3 col-md-6">
               <h4 class="text-white mb-4">Our Office</h4>
               <p class="mb-2">
-                <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York,
-                USA
+                <i class="fa fa-map-marker-alt me-3"></i>Mile 17, Buea ,Cameroon
               </p>
               <p class="mb-2">
-                <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+                <i class="fa fa-phone-alt me-3"></i>+237 671 559 157
               </p>
               <p class="mb-2">
-                <i class="fa fa-envelope me-3"></i>info@example.com
+                <i class="fa fa-envelope me-3"></i>info@dreamz.business
               </p>
               <div class="d-flex pt-2">
                 <a
@@ -51,19 +50,13 @@ export default function Footer() {
             <div class="col-lg-3 col-md-6">
               <h4 class="text-white mb-4">Services</h4>
               <a class="btn btn-link" href="">
-                Financial Planning
+                Travels
               </a>
               <a class="btn btn-link" href="">
-                Cash Investment
+                Logistics
               </a>
               <a class="btn btn-link" href="">
-                Financial Consultancy
-              </a>
-              <a class="btn btn-link" href="">
-                Business Loans
-              </a>
-              <a class="btn btn-link" href="">
-                Business Analysis
+                Business
               </a>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -77,16 +70,10 @@ export default function Footer() {
               <a class="btn btn-link" href="">
                 Our Services
               </a>
-              <a class="btn btn-link" href="">
-                Terms & Condition
-              </a>
-              <a class="btn btn-link" href="">
-                Support
-              </a>
             </div>
             <div class="col-lg-3 col-md-6">
               <h4 class="text-white mb-4">Newsletter</h4>
-              <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+              {/* <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> */}
               <div class="position-relative w-100">
                 <input
                   class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5"
@@ -107,16 +94,23 @@ export default function Footer() {
 
       <div class="container-fluid copyright py-4">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    Designed By <a class="border-bottom" href="#">Tambua EvaristusCCC23</a>
-                </div>
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;{" "}
+              <a class="border-bottom" href="#">
+                Dreamz{" "}
+              </a>{" "}
+              All Right Reserved.
             </div>
+            <div class="col-md-6 text-center text-md-end">
+              Designed By{" "}
+              <a class="border-bottom" href="#">
+                Tambua EvaristusCCC23
+              </a>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
     </div>
   );
 }
