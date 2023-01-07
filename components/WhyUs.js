@@ -3,6 +3,7 @@ import React from "react";
 export default function WhyUs() {
   return (
     <div class="container-xxl feature py-5">
+      {/* Why Us section */}
       <div class="container">
         <div class="row g-5 align-items-center">
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
