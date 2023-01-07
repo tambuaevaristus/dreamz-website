@@ -1,13 +1,17 @@
+import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
 export default function About() {
+  const router = useRouter();
+
   return (
     <div>
       <div class="container-xxl py-5">
         <div class="container">
           <div class="row g-4 align-items-end mb-4">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <img class="img-fluid rounded" src="img/about.jpg" />
+              <img class="img-fluid rounded" src="img/about.png" />
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
               <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">
@@ -25,97 +29,58 @@ export default function About() {
                 quality goods at cheaper prices and have them delivered at your
                 door step at your convenience.
               </p>
-              {/* <div class="border rounded p-4"> */}
-              {/* <nav>
-                  <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-                    <button
-                      class="nav-link fw-semi-bold active"
-                      id="nav-story-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#nav-story"
-                      type="button"
-                      role="tab"
-                      aria-controls="nav-story"
-                      aria-selected="true"
-                    >
-                      Story
-                    </button>
-                    <button
-                      class="nav-link fw-semi-bold"
-                      id="nav-mission-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#nav-mission"
-                      type="button"
-                      role="tab"
-                      aria-controls="nav-mission"
-                      aria-selected="false"
-                    >
-                      Mission
-                    </button>
-                    <button
-                      class="nav-link fw-semi-bold"
-                      id="nav-vision-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#nav-vision"
-                      type="button"
-                      role="tab"
-                      aria-controls="nav-vision"
-                      aria-selected="false"
-                    >
-                      Vision
-                    </button>
-                  </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                  <div
-                    class="tab-pane fade show active"
-                    id="nav-story"
-                    role="tabpanel"
-                    aria-labelledby="nav-story-tab"
-                  >
-                    <p>
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                      tempor sit. Aliqu diam amet diam et eos labore.
-                    </p>
-                    <p class="mb-0">
-                      Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam
-                      et eos labore. Clita erat ipsum et lorem et sit
-                    </p>
-                  </div>
-                  <div
-                    class="tab-pane fade"
-                    id="nav-mission"
-                    role="tabpanel"
-                    aria-labelledby="nav-mission-tab"
-                  >
-                    <p>
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                      tempor sit. Aliqu diam amet diam et eos labore.
-                    </p>
-                    <p class="mb-0">
-                      Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam
-                      et eos labore. Clita erat ipsum et lorem et sit
-                    </p>
-                  </div>
-                  <div
-                    class="tab-pane fade"
-                    id="nav-vision"
-                    role="tabpanel"
-                    aria-labelledby="nav-vision-tab"
-                  >
-                    <p>
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                      tempor sit. Aliqu diam amet diam et eos labore.
-                    </p>
-                    <p class="mb-0">
-                      Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam
-                      et eos labore. Clita erat ipsum et lorem et sit
-                    </p>
-                  </div>
-                </div> */}
-              {/* </div> */}
+
+              {router.asPath == "/" ? (
+                <Link legacyBehavior href="/about">
+                  <a class="fw-semi-bold">
+                    Read More <i class="fa fa-arrow-right ms-1"></i>
+                  </a>
+                </Link>
+              ) : (
+                <></>
+              )}
             </div>
           </div>
+
+          {router.asPath == "/about" ? (
+            <>
+              <div class="row g-4 align-items-end mb-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <h1 class="display-5 mb-4">More</h1>
+                  <p class="mb-4">
+                    We have carried out a survey and found out that among the
+                    people who travel from one country to another some really
+                    love to have their air tickets bookings handled and
+                    paperwork finalized like doing their VISAs which for some
+                    countries are really difficult to get.
+                    <br /> Others find it difficult to order goods and have them
+                    delivered on time and most at times the quality of the goods
+                    is not actually what they desired and actually having these
+                    goods delivered to them at the comfort of their homes.
+                  </p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <img class="img-fluid rounded" src="img/about2.png" />
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <h1 class="display-5 mb-4">More</h1>
+                  <p class="mb-4">
+                    Still in this survey we have discovered that people
+                    generally want to order items or buy from the supermarkets,
+                    fashion shops, restaurants and more but due to the fact that
+                    they might not have the time to go get them by themselves
+                    due to a tight schedule, they often feel frustrated and
+                    desire they could place the orders and have them delivered
+                    at the comfort of their homes without having to go to the
+                    markets.
+                  </p>
+                </div>
+              </div>
+            </>
+          ) : (
+            <></>
+          )}
+
           <div class="border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-4">
               <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
