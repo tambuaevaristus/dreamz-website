@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Navbar() {
@@ -50,19 +51,19 @@ export default function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="index.html" class="nav-item nav-link active">
-              Home
-            </a>
-            <a href="about.html" class="nav-item nav-link">
-              About
-            </a>
-            <a href="service.html" class="nav-item nav-link">
-              Services
-            </a>
+            <Link legacyBehavior href="/">
+              <a class="nav-item nav-link">Home</a>
+            </Link>
+            <Link legacyBehavior href="/about">
+              <a class="nav-item nav-link">About</a>
+            </Link>
+            <Link legacyBehavior href="/services">
+              <a class="nav-item nav-link">Services</a>
+            </Link>
 
-            <a href="contact.html" class="nav-item nav-link">
-              Contact
-            </a>
+            <Link legacyBehavior href="/contact">
+              <a class="nav-item nav-link">Contact</a>
+            </Link>
           </div>
           <div class="d-none d-lg-flex ms-2">
             <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
