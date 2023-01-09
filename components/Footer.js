@@ -14,34 +14,36 @@ export default function Footer() {
               <p class="mb-2">
                 <i class="fa fa-map-marker-alt me-3"></i>Mile 17, Buea ,Cameroon
               </p>
-              <p class="mb-2">
+              <a class="mb-2 text-white" href="">
                 <i class="fa fa-phone-alt me-3"></i>+237 671 559 157
-              </p>
-              <p class="mb-2">
+              </a>
+              <br/>
+              <a class="mb-2" href="mailto:info@dreamz.business" >
                 <i class="fa fa-envelope me-3"></i>info@dreamz.business
-              </p>
+              </a>
+              
               <div class="d-flex pt-2">
                 <a
                   class="btn btn-square btn-outline-light rounded-circle me-2"
-                  href=""
+                  href="https://twitter.com/DreamzNation2"
                 >
                   <i class="fab fa-twitter"></i>
                 </a>
                 <a
                   class="btn btn-square btn-outline-light rounded-circle me-2"
-                  href=""
+                  href="https://www.facebook.com/dreamz.limited4"
                 >
                   <i class="fab fa-facebook-f"></i>
                 </a>
                 <a
                   class="btn btn-square btn-outline-light rounded-circle me-2"
-                  href=""
+                  href="https://www.instagram.com/dreamznation/"
                 >
-                  <i class="fab fa-youtube"></i>
+                  <i class="fab fa-instagram"></i>
                 </a>
                 <a
                   class="btn btn-square btn-outline-light rounded-circle me-2"
-                  href=""
+                  href="https://www.linkedin.com/in/dreamz-limited-176011254/"
                 >
                   <i class="fab fa-linkedin-in"></i>
                 </a>
@@ -73,7 +75,6 @@ export default function Footer() {
             </div>
             <div class="col-lg-3 col-md-6">
               <h4 class="text-white mb-4">Newsletter</h4>
-              {/* <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> */}
               <div class="position-relative w-100">
                 <input
                   class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5"
@@ -98,16 +99,16 @@ export default function Footer() {
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
               &copy;{" "}
               <a class="border-bottom" href="#">
-                Dreamz{" "}
+                Dreamz 2022 {" "}
               </a>{" "}
               All Right Reserved.
             </div>
-            <div class="col-md-6 text-center text-md-end">
+            {/* <div class="col-md-6 text-center text-md-end">
               Designed By{" "}
               <a class="border-bottom" href="#">
-                Tambua EvaristusCCC23
+                Mocu
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

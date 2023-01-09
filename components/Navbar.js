@@ -66,13 +66,28 @@ export default function Navbar() {
             </Link>
           </div>
           <div class="d-none d-lg-flex ms-2">
-            <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+            <a
+              class="btn btn-light btn-sm-square rounded-circle ms-3"
+              href="https://www.facebook.com/dreamz.limited4"
+            >
               <small class="fab fa-facebook-f text-primary"></small>
             </a>
-            <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+            <a
+              class="btn btn-light btn-sm-square rounded-circle ms-3"
+              href="https://twitter.com/DreamzNation2"
+            >
               <small class="fab fa-twitter text-primary"></small>
             </a>
-            <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+            <a
+              class="btn btn-light btn-sm-square rounded-circle ms-3"
+              href="https://www.instagram.com/dreamznation/"
+            >
+              <small class="fab fa-instagram text-primary"></small>
+            </a>
+            <a
+              class="btn btn-light btn-sm-square rounded-circle ms-3"
+              href="https://www.linkedin.com/in/dreamz-limited-176011254/"
+            >
               <small class="fab fa-linkedin-in text-primary"></small>
             </a>
           </div>
