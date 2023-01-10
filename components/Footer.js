@@ -18,7 +18,7 @@ export default function Footer() {
                 <i class="fa fa-phone-alt me-3"></i>+237 671 559 157
               </a>
               <br/>
-              <a class="mb-2" href="mailto:info@dreamz.business" >
+              <a class="mb-2 text-white" href="mailto:info@dreamz.business" >
                 <i class="fa fa-envelope me-3"></i>info@dreamz.business
               </a>
               
