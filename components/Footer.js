@@ -99,9 +99,9 @@ export default function Footer() {
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
               &copy;{" "}
               <a class="border-bottom" href="#">
-                Dreamz 2022 {" "}
+                Dreamz 2022... {" "}
               </a>{" "}
-              All Right Reserved.
+              All Right Reserved...
             </div>
             {/* <div class="col-md-6 text-center text-md-end">
               Designed By{" "}
