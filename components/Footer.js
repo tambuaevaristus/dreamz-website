@@ -101,7 +101,7 @@ export default function Footer() {
               <a class="border-bottom" href="#">
                 Dreamz 2022... {" "}
               </a>{" "}
-              All Right Reserved...
+              All Right Reserved.
             </div>
             {/* <div class="col-md-6 text-center text-md-end">
               Designed By{" "}
